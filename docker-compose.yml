@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3003:3003"
+    container_name: "clutch_capital_ui"
+    restart: unless-stopped
