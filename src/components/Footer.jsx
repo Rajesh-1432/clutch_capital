@@ -3,7 +3,7 @@ import { IoMdMail } from 'react-icons/io'
 
 const Footer = () => {
     return (
-        <footer className="w-full flex flex-col md:flex-row justify-between items-center gap-2 px-6 md:px-24 py-4 bg-green-900 text-white text-sm">
+        <footer className="w-full flex flex-col md:flex-row justify-between items-center gap-2 px-6 md:px-24 py-4 bg-teal-700 text-white text-sm">
             <div>© 2025. All Rights Reserved.</div>
 
             <div className="flex items-center space-x-4">

@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
                 <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                     {/* Logo */}
                     <div className="flex justify-center md:justify-start mb-4 md:mb-0">
-                        <img src={logo} alt="Logo" className="h-20 w-auto" />
+                        <img src={logo} alt="Logo" className="h-40 w-auto" />
                     </div>
 
                     {/* Nav links */}
@@ -22,8 +22,8 @@ const Layout = ({ children }) => {
                             className={({ isActive }) =>
                                 `w-full md:w-auto text-center px-4 py-2 rounded 
                                 ${isActive
-                                    ? 'bg-blue-600 text-white md:bg-transparent md:text-blue-600 md:border-b-2 md:border-blue-600'
-                                    : 'text-blue-600 hover:opacity-80 md:hover:bg-transparent hover:bg-blue-100'}`
+                                    ? 'bg-blue-900 text-white md:bg-transparent md:text-blue-900 md:border-b-4 md:border-blue-900 font-semibold'
+                                    : 'text-blue-900 hover:opacity-80 md:hover:bg-transparent hover:bg-blue-100 font-semibold'}`
                             }
                         >
                             Home
@@ -33,8 +33,8 @@ const Layout = ({ children }) => {
                             className={({ isActive }) =>
                                 `w-full md:w-auto text-center px-4 py-2 rounded 
                                 ${isActive
-                                    ? 'bg-blue-600 text-white md:bg-transparent md:text-blue-600 md:border-b-2 md:border-blue-600'
-                                    : 'text-blue-600 hover:opacity-80 md:hover:bg-transparent hover:bg-blue-100'}`
+                                    ? 'bg-blue-900 text-white md:bg-transparent md:text-blue-900 md:border-b-4 md:border-blue-900 font-semibold'
+                                    : 'text-blue-900 hover:opacity-80 md:hover:bg-transparent hover:bg-blue-100 font-semibold'}`
                             }
                         >
                             Contact

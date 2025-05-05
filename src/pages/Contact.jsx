@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import img from '../assets/contact.svg'
 
 const Contact = () => {
+  const svgTealStyle = {
+    filter: 'invert(26%) sepia(89%) saturate(1583%) hue-rotate(158deg) brightness(95%) contrast(101%)'
+  };
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -42,7 +45,7 @@ const Contact = () => {
             Schedule a meeting with one of our investment advisors to discuss your growth objectives.
           </p>
         </div>
-        
+
         <div className="space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
@@ -66,7 +69,7 @@ const Contact = () => {
               />
             </div>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <input
@@ -89,7 +92,7 @@ const Contact = () => {
               />
             </div>
           </div>
-          
+
           <div>
             <textarea
               name="message"
@@ -100,23 +103,24 @@ const Contact = () => {
               className="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
             ></textarea>
           </div>
-          
+
           <div>
             <button
               onClick={handleSubmit}
-              className="bg-blue-900 text-white py-3 px-8 rounded uppercase font-bold tracking-wider hover:bg-blue-800 transition duration-200"
+              className="bg-blue-800 text-white py-3 px-8 rounded uppercase font-bold tracking-wider hover:bg-blue-800 transition duration-200 ring-2 ring-blue-800 ring-offset-2 focus:outline-none focus:ring-4"
             >
               Submit
             </button>
           </div>
         </div>
       </div>
-      
+
       {/* Right side - Image */}
       <div className="w-full lg:w-1/2 flex justify-center">
-        <img 
-          src={img} 
-          alt="Contact illustration" 
+        <img
+          src={img}
+          style={svgTealStyle}
+          alt="Contact illustration"
           className="w-full max-w-md"
         />
       </div>
