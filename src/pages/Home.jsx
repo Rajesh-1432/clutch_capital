@@ -16,7 +16,7 @@ const ImageGrid = () => {
     const images = [grid1, grid2, grid3, grid4, grid5, grid6]
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-y-4 gap-x-2 mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-y-2 gap-x-2 mx-auto">
             {images.map((img, index) => (
                 <div key={index} className="flex justify-center">
                     <img
