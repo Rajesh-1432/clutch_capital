@@ -43,7 +43,7 @@ const Home = () => {
                 <div className="w-full md:w-1/2 space-y-6 text-center">
                     <h1 className="text-3xl md:text-3xl  text-blue-950 py-4">Accelerate Your Business Growth!</h1>
                     <p className="text-lg md:text-xl text-blue-950">
-                        Tap into a targeted network of 2000+ high impact investors and get capital infusion rapidly and efficiently.
+                        Tap into a consortium of high impact investors and get capital infusion rapidly and efficiently.
                     </p>
                     <p className="text-lg md:text-xl text-blue-950">Proven track record of fund raises from Seed-stage, Pre-Series A or Series A and beyond and connect with our experts for access to free case studies.
                     </p>
